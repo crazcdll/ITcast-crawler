@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-
+from ITcast.items import ItcastItem
 
 class ItcastSpider(scrapy.Spider):
     name = 'itcast'
@@ -8,10 +8,18 @@ class ItcastSpider(scrapy.Spider):
     start_urls = ['http://www.itcast.cn/channel/teacher.shtml']
 
     def parse(self, response):
+        items = []
         node_list = response.xpath("//div[@class='li_txt']")
         for node in node_list:
+            item = ItcastItem
+
             name = node.xpath("./h3/text()").extract()
             title = node.xpath("./h4/text()").extract()
             info = node.xpath("./p/text()").extract()
 
-            print(name[0], title[0], info[0])
+            item['name'] = name[0]
+            item['title'] = title[0]
+            item['info'] = info[0]
+
+            items.append(item)
+        print(items)
