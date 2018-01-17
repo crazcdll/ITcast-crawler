@@ -1,0 +1,140 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "faeda8de7654d6925e3fd2aec4b0ba230c2bb57932cc00eb2e4d553a33af8e0e"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "3.5.2",
+            "os_name": "posix",
+            "platform_machine": "x86_64",
+            "platform_python_implementation": "CPython",
+            "platform_release": "4.10.0-42-generic",
+            "platform_system": "Linux",
+            "platform_version": "#46~16.04.1-Ubuntu SMP Mon Dec 4 15:57:59 UTC 2017",
+            "python_full_version": "3.5.2",
+            "python_version": "3.5",
+            "sys_platform": "linux"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.5"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "http://mirrors.aliyun.com/pypi/simple"
+            }
+        ]
+    },
+    "default": {
+        "asn1crypto": {
+            "hashes": [],
+            "version": "==0.24.0"
+        },
+        "attrs": {
+            "hashes": [],
+            "version": "==17.4.0"
+        },
+        "automat": {
+            "hashes": [],
+            "version": "==0.6.0"
+        },
+        "cffi": {
+            "hashes": [],
+            "markers": "platform_python_implementation != 'PyPy'",
+            "version": "==1.11.4"
+        },
+        "constantly": {
+            "hashes": [],
+            "version": "==15.1.0"
+        },
+        "cryptography": {
+            "hashes": [],
+            "version": "==2.1.4"
+        },
+        "cssselect": {
+            "hashes": [],
+            "version": "==1.0.3"
+        },
+        "enum34": {
+            "hashes": [],
+            "markers": "python_version < '3'",
+            "version": "==1.1.6"
+        },
+        "hyperlink": {
+            "hashes": [],
+            "version": "==17.3.1"
+        },
+        "idna": {
+            "hashes": [],
+            "version": "==2.6"
+        },
+        "incremental": {
+            "hashes": [],
+            "version": "==17.5.0"
+        },
+        "ipaddress": {
+            "hashes": [],
+            "markers": "python_version < '3'",
+            "version": "==1.0.19"
+        },
+        "lxml": {
+            "hashes": [],
+            "version": "==4.1.1"
+        },
+        "parsel": {
+            "hashes": [],
+            "version": "==1.3.1"
+        },
+        "pyasn1": {
+            "hashes": [],
+            "version": "==0.4.2"
+        },
+        "pyasn1-modules": {
+            "hashes": [],
+            "version": "==0.2.1"
+        },
+        "pycparser": {
+            "hashes": [],
+            "version": "==2.18"
+        },
+        "pydispatcher": {
+            "hashes": [],
+            "version": "==2.0.5"
+        },
+        "pyopenssl": {
+            "hashes": [],
+            "version": "==17.5.0"
+        },
+        "queuelib": {
+            "hashes": [],
+            "version": "==1.4.2"
+        },
+        "scrapy": {
+            "hashes": [],
+            "version": "==1.5.0"
+        },
+        "service-identity": {
+            "hashes": [],
+            "version": "==17.0.0"
+        },
+        "six": {
+            "hashes": [],
+            "version": "==1.11.0"
+        },
+        "twisted": {
+            "hashes": [],
+            "version": "==17.9.0"
+        },
+        "w3lib": {
+            "hashes": [],
+            "version": "==1.18.0"
+        },
+        "zope.interface": {
+            "hashes": [],
+            "version": "==4.4.3"
+        }
+    },
+    "develop": {}
+}

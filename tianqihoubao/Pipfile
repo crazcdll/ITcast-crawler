@@ -1,0 +1,18 @@
+[[source]]
+
+url = "http://mirrors.aliyun.com/pypi/simple"
+name = "pypi"
+
+
+[dev-packages]
+
+
+
+[packages]
+
+scrapy = "*"
+
+
+[requires]
+
+python_version = "3.5"
